@@ -4,11 +4,11 @@
   <parent>
     <groupId>gov.lanl.archive</groupId>
     <artifactId>sitestory-projects</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
   </parent>
   <groupId>gov.lanl.archive</groupId>
   <artifactId>sitestory-core</artifactId>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
   <name>sitestory-core</name>
   <url>http://maven.apache.org</url>
