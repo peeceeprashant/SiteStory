@@ -154,6 +154,14 @@ public class TimeGateResource {
 			 hdatetime.add(0,   httpformatter.format(date));
 		   }
 		
+		//New Code
+		 int flag = 0;
+		 if(flag == 0) {
+		   System.out.println("Pattern 4");
+		   MementoResource res = new MementoResource( baseurl);
+		   return res.getMemento(id, formatterout.format(date), hh);
+		 }
+		 //-------- 
 		 
 		 String origlink ="<"+id+">;rel=\"original\"";
       	 String timemap = " , <"+baseurl.toString() +"timemap/link/" + id+">;rel=\"timemap\"; type=\"application/link-format\"";
